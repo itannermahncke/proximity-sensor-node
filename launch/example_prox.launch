@@ -1,0 +1,4 @@
+<launch>
+    <node name="proximity_sensor_node" pkg="button_proximity" type="proximity_sensor_node.py" output="screen" respawn="true" respawn_delay="30">
+    </node>
+</launch>
